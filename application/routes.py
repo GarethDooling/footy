@@ -8,7 +8,7 @@ def create():
     createform = CreateForm()
 
     if createform.validate_on_submit():
-        team = Teams(name=createform.name.data)
+        team = Teams(name=createform.name.data, description=createform.description.data)
         db.session.add(team)
         db.session.commit()
 
@@ -28,11 +28,13 @@ def update(name):
 
     if request.method == 'GET':
         updateform.name.data = team.name
+        updateform.description.data = team.description
         return render_template('update.html', form=updateform)    
   
     else:
         if updateform.validate_on_submit():
             team.name = updateform.name.data
+            team.description = updateform.description.data
             db.session.commit()
             return redirect(url_for('read'))
 

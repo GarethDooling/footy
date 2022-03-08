@@ -18,7 +18,7 @@ class TestBase(TestCase):
         # Will be called before every test
         db.create_all()
 
-        task1 = Tasks(name="new task", description= "this new task")
+        task1 = Teams(name="new task", description= "this new task")
 
         db.session.add(task1)
         db.session.commit()
@@ -41,7 +41,7 @@ class TestCRUD(TestBase):
             data=dict(name="created task", description="this is a create task"),
             follow_redirects=True
         )
-        created_task = Tasks.query.get(2)
+        created_task = Teams.query.get(2)
         self.assertEqual(created_task.name, "created task")
         self.assertIn('created task', str(response.data))
         self.assertIn('this is a create task', str(response.data))
