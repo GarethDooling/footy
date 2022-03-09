@@ -1,0 +1,24 @@
+pipeline {
+    agent any
+    stages {
+        stage('Setup') {
+            steps {
+                sh "bash jenkins/setup.sh"
+            }
+        }
+        stage('Test') {
+            steps {
+                sh "bash jenkins/test.sh"
+            }
+        }
+        stage('Create Schema') {
+            steps {
+                script{
+                    if (env.CREATE_SCHEMA == "true") {
+                        sh "python3 create.py"
+                    }
+                }
+            }
+        }
+    }
+}
