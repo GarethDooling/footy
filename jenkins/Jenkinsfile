@@ -1,5 +1,9 @@
 pipeline {
     agent any
+    environment {
+        CREATE_SCHEMA = "true"
+        RUN_APP = "false"
+    }
     stages {
         stage('Setup') {
             steps {
@@ -20,5 +24,8 @@ pipeline {
                 }
             }
         }
-    }
-}
+        stage('Run') {
+            steps {
+                script{
+                    if (env.RUN_APP == "true") {
+                        sh "python3 app.py"
