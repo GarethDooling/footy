@@ -29,3 +29,9 @@ pipeline {
                 script{
                     if (env.RUN_APP == "true") {
                         sh "python3 app.py"
+                    }
+                }
+            }
+        }
+    }
+}
