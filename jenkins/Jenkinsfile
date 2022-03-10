@@ -3,8 +3,8 @@ pipeline {
     environment {
         CREATE_SCHEMA = "true"
         RUN_APP = "false"
-        DATABASE_URI = "sqlite:///data.db"
-        SECRET_KEY = 'A SOOCRET KOO'
+        DATABASE_URI = "sqlite:///"
+    
     }
     stages {
         stage('Setup') {
