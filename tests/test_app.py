@@ -12,7 +12,7 @@ class TestBase(TestCase):
         return app
 
     def setUp(self):
-        # Will be called before every test
+        db.drop_all()
         db.create_all()
 
         task1 = Teams(name="new task", description= "this new task")
