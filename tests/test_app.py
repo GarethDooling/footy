@@ -1,5 +1,5 @@
 from flask_testing import TestCase
-from application import app, db
+from application import app, db, routes 
 from application.models import Teams
 from flask import url_for
 
