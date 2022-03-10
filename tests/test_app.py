@@ -4,14 +4,11 @@ from application.models import Teams
 from flask import url_for
 
 class TestBase(TestCase):
-
     def create_app(self):
-        # Defines the flask object's configuration for the unit tests
-        app.config.update(
-            DATABASE_URI='DATABASE_URI',
+        app.config.update(SQLALCHEMY_DATABASE_URI="sqlite:///",
             DEBUG=True,
-            WTF_CSRF_ENABLED=False
-        )
+            WTF_CSRF_ENABLES=False
+            )
         return app
 
     def setUp(self):
