@@ -2,8 +2,9 @@ pipeline {
     agent any
     environment {
         CREATE_SCHEMA = "true"
-        RUN_APP = "false"
-        DATABASE_URI = "sqlite:///"
+        RUN_APP = "true"
+        DATABASE_URI = credentials("DATABASE_URI")
+        SECRET_KEY - credentials("SECRET_KEY")
     
     }
     stages {
