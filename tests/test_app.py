@@ -1,11 +1,11 @@
 from flask_testing import TestCase
-from application import app, db, routes 
+from application import app, db
 from application.models import Teams
 from flask import url_for
 
 class TestBase(TestCase):
     def create_app(self):
-        app.config.update(SQLALCHEMY_DATABASE_URI="sqlite:///",
+        app.config.update(SQLALCHEMY_DATABASE_URI="DATABASE_URI",
             DEBUG=True,
             WTF_CSRF_ENABLES=False
             )
