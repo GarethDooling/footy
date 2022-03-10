@@ -12,9 +12,9 @@ pipeline {
                 sh "bash jenkins/setup.sh"
             }
         }
-        stage('Test') {
-            steps {
-                sh "bash jenkins/test.sh"
+        // stage('Test') {
+        //     steps {
+        //         sh "bash jenkins/test.sh"
             }
         }
         stage('Create Schema') {

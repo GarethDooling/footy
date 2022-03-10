@@ -30,7 +30,7 @@ class TestCRUD(TestBase):
         response = self.client.get(url_for('read'))
         self.assertEqual(response.status_code, 200)
         self.assertIn('new task', str(response.data))
-        #self.assertIn('this new task', str(response.data))
+        self.assertIn('this new task', str(response.data))
 
     def test_create_tasks(self):
         response = self.client.post(
@@ -41,7 +41,7 @@ class TestCRUD(TestBase):
         created_task = Teams.query.get(2)
         self.assertEqual(created_task.name, "created task")
         self.assertIn('created task', str(response.data))
-        #self.assertIn('this is a create task', str(response.data))
+        self.assertIn('this is a create task', str(response.data))
 
     def test_update_tasks(self):
         response = self.client.post(
@@ -50,7 +50,7 @@ class TestCRUD(TestBase):
             follow_redirects=True
         )
         self.assertIn("updated task", str(response.data))
-        #self.assertIn("this is an updated task", str(response.data))
+        self.assertIn("this is an updated task", str(response.data))
 
     def test_delete_tasks(self):
         response = self.client.post(
