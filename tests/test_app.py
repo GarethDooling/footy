@@ -5,7 +5,7 @@ from flask import url_for
 
 class TestBase(TestCase):
     def create_app(self):
-        app.config.update(SQLALCHEMY_DATABASE_URI="sqlite:///",
+        app.config.update(SQLALCHEMY_DATABASE_URI="sqlite:///data.db",
             DEBUG=True,
             WTF_CSRF_ENABLES=False
             )
