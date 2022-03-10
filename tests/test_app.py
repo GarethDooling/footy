@@ -5,8 +5,8 @@ from flask import url_for
 
 class TestBase(TestCase):
     def create_app(self):
-        app.config.update(SQLALCHEMY_DATABASE_URI="DATABASE_URI",
-            SECRET_KEY='SECRET_KEY',
+        app.config.update(SQLALCHEMY_DATABASE_URI="sqlite:///data.db",
+            SECRET_KEY='A SOOCRET KOO',
             DEBUG=True,
             WTF_CSRF_ENABLES=False
             )
