@@ -3,8 +3,8 @@ pipeline {
     environment {
         CREATE_SCHEMA = "true"
         RUN_APP = "false"
-        DATABASE_URI = "DATABASE_URI"
-        SECRET_KEY = "SECRET_KEY"
+        DATABASE_URI = credentials("DATABASE_URI")
+        SECRET_KEY = credentials("SECRET_KEY")
     }
     stages {
         stage('Setup') {
