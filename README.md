@@ -68,13 +68,23 @@ On the app.py file only one out of the four tests were successful.
 
 The app has a very simple layout with user input text boxes and buttons for CRUD functionality. 
 
-![image](https://user-images.githubusercontent.com/97617047/157864698-18056bb6-0369-48cb-9151-64dc6915d06b.png)
+Home page
 
-![image](https://user-images.githubusercontent.com/97617047/157864777-c4120efd-8430-4ed3-99c0-3a960be94523.png)
+![image](https://user-images.githubusercontent.com/97617047/157866932-a7f8aead-1025-4b31-a8d9-14ce88f7c721.png)
 
-![image](https://user-images.githubusercontent.com/97617047/157864957-7ddfe787-b0a1-48a8-88ae-9c10436573d0.png)
+Create team
 
-![image](https://user-images.githubusercontent.com/97617047/157865021-c608e4a8-8f9e-48e8-b3c3-7bf97065c8c1.png)
+![image](https://user-images.githubusercontent.com/97617047/157867029-0d9effd6-7b1c-4303-9b66-93e446ce7edc.png)
+![image](https://user-images.githubusercontent.com/97617047/157867104-bff5dedf-611d-4957-a025-80a5e0bc2d05.png)
+
+Update team
+
+![image](https://user-images.githubusercontent.com/97617047/157867204-6dcdc35b-b383-4e01-886c-5d55ebbd64ac.png)
+![image](https://user-images.githubusercontent.com/97617047/157867271-a04a501e-4c1d-4d03-b484-ab27eacdb95b.png)
+
+Delete team
+
+![image](https://user-images.githubusercontent.com/97617047/157867336-07275500-d383-41e3-abde-fa8830058aa0.png)
 
 ## Part 7: Issues & Improvements
 
@@ -90,4 +100,4 @@ Link to the Vimeo video - https://vimeo.com/687046440/b1a9fca6ae
 
 Author - Gareth Dooling
 
-Acknowledgements - htr-volker, The Earl of Gray & Cleon909 for design & layout of readme documents
+Acknowledgements - htr-volker, The Earl of Gray & Cleon909 for design & layout of readme.md document.
