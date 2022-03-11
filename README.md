@@ -6,18 +6,11 @@
 - To utilise containers to host and deploy the application.
 - To create a continuous integration (CI)/continuous deployment (CD) pipeline that will automatically test, build and deploy the application.
 
-This will require use of the following technologies/concepts:
+The final deliverable for the project is as follows:
 
-- Project Management
-- Python Fundamentals
-- Python Testing
-- Git
-- Linux
-- Python Web Development
-- Databases
-- Continuous Integration and Deployment (CI/CD)
-- Cloud Fundamentals
-- Containerisation
+1. A GitHub repository containing all of the code written for this project, including the software source code, Jenkins configuration, Docker configuration and any related scripts.
+2. The GitHub repository should also contain the write-up for the project in the form of a README.md file.
+3. Also required is video evidence of the application and CI/CD pipeline working.
 
 ## Part 1: Project Summary
 
