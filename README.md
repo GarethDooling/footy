@@ -14,7 +14,7 @@ The final deliverables for the project are:
 
 ## Part 1: Project Design
 
-According to the MoSCoW principles, I proposed to create a simple fantasy football application relating to two tables; 'Teams' and 'Players'. The app MUST demonstrate CRUD functionality so a user is be able to create, read, update and delete teams and players. 
+According to the MoSCoW principles, I proposed to create a simple fantasy football application relating to two tables; 'Teams' and 'Players'. The app MUST demonstrate CRUD functionality so a user is able to create, read, update and delete teams and players. 
 
 Unfortunately, I was not able to add the second 'Players' table so the app only demonstrates CRUD for the 'Teams' table. 
 
