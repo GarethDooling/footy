@@ -30,11 +30,25 @@ The initial plan was for a one to many relationship between the databases howeve
 
 ### 2.2 CI/CD Pipeline
 
-The diagram below shows how the CI/CD pipeline should operate however I was not able to proceed past the build stage. 
+The diagram below shows how the CI/CD pipeline should operate.   
 
 ![129537075-43c17f22-2709-4441-b00c-710398d07310](https://user-images.githubusercontent.com/97617047/157854508-bd8f2f02-71b6-4946-baf4-a213691df359.png)
 
+The Jenkins pipeline had four stages; set up, test, create schema and run however I was not able to enable the test stage.
 
-### 2.1 Jira
+![image](https://user-images.githubusercontent.com/97617047/157857460-59cbb23b-d9d2-4112-a8c4-4396d60a22c3.png)
+
+Although by omitting the test stage I was able to cause the other three stages to run successfully.
+
+![image](https://user-images.githubusercontent.com/97617047/157857906-51cfd6ce-fbbc-406b-b3ac-c635b6c10809.png)
+
+### Part 3: Project Tracking
 
 ![image](https://user-images.githubusercontent.com/97617047/153412116-38921f79-558d-4b25-a836-182366f061f2.png)
+
+## Part X: Deliverables
+
+Link to the GitHub repository -
+Link to the Vimeo video - 
+Link to Jira kanban board - 
+Link to Risk Assessment - 
