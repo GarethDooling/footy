@@ -28,7 +28,12 @@ The initial plan was for a one to many relationship between the databases howeve
 
 ![image](https://user-images.githubusercontent.com/97617047/153581704-25a4ffb8-81b2-491a-acf4-ed42351c7833.png)
 
-### 2.2 CI/Pipeline
+### 2.2 CI/CD Pipeline
+
+The diagram below shows how the CI/CD pipeline should operate however I was not able to proceed past the build stage. 
+
+![129537075-43c17f22-2709-4441-b00c-710398d07310](https://user-images.githubusercontent.com/97617047/157854508-bd8f2f02-71b6-4946-baf4-a213691df359.png)
+
 
 ### 2.1 Jira
 
