@@ -1,4 +1,4 @@
-# QA DevOps Boot Camp Final Project 
+# QA DevOps Final Project 
 
 ## Brief
 
