@@ -1,4 +1,4 @@
-# Fantasy Footy - QA DevOps Boot Camp Final Project 
+# QA DevOps Boot Camp Final Project 
 
 # Brief
 
@@ -8,7 +8,7 @@
 
 The final deliverables for the project are:
 
-1. A GitHub repository containing all of the code written for this project, including the software source code, Jenkins configuration, Docker configuration and any related scripts.
+1. A GitHub repository containing all of the code written for this project, including the software source code, Jenkins configuration, Docker configuration and any related       scripts.
 2. The GitHub repository should also contain the write-up for the project in the form of a README.md file.
 3. Also required is video evidence of the application and CI/CD pipeline working.
 
