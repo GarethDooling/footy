@@ -42,13 +42,51 @@ Although by omitting the test stage I was able to cause the other three stages t
 
 ![image](https://user-images.githubusercontent.com/97617047/157857906-51cfd6ce-fbbc-406b-b3ac-c635b6c10809.png)
 
-### Part 3: Project Tracking
+## Part 3: Project Tracking
 
-![image](https://user-images.githubusercontent.com/97617047/153412116-38921f79-558d-4b25-a836-182366f061f2.png)
+Jira was used to keep track of the project and the link is: https://garethdooling.atlassian.net/jira/software/projects/FF2/boards/2
 
-## Part X: Deliverables
+![image](https://user-images.githubusercontent.com/97617047/157858494-cb83cf1c-a8d0-4832-b609-50e397ab1b2e.png)
 
-Link to the GitHub repository -
-Link to the Vimeo video - 
-Link to Jira kanban board - 
-Link to Risk Assessment - 
+## Part 4: Risk Assessment
+
+Some of the risks which need to be considered and mitigated. 
+
+![image](https://user-images.githubusercontent.com/97617047/157861073-d22203cc-c094-4828-b494-d2e7ce147e34.png)
+
+## Part 5: Testing
+
+Unit tests were written to test the app using pytest and achieved 80% coverage on the entire code. 
+
+![image](https://user-images.githubusercontent.com/97617047/157863282-1258a670-f61d-4290-bb17-b84994f0a89c.png)
+
+On the app.py file only one out of the four tests were successful. 
+
+![image](https://user-images.githubusercontent.com/97617047/157864198-0cb6f52a-2d75-4969-9b12-395da92eeff1.png)
+
+## Part 6: Front End Design
+
+The app has a very simple layout with user input text boxes and buttons for CRUD functionality. 
+
+![image](https://user-images.githubusercontent.com/97617047/157864698-18056bb6-0369-48cb-9151-64dc6915d06b.png)
+
+![image](https://user-images.githubusercontent.com/97617047/157864777-c4120efd-8430-4ed3-99c0-3a960be94523.png)
+
+![image](https://user-images.githubusercontent.com/97617047/157864957-7ddfe787-b0a1-48a8-88ae-9c10436573d0.png)
+
+![image](https://user-images.githubusercontent.com/97617047/157865021-c608e4a8-8f9e-48e8-b3c3-7bf97065c8c1.png)
+
+## Part 7: Issues & Improvements
+
+Obviously I was not able to fulfil the brief however at least I was able to demonstrate basic CRUD functionality and make use of the Jenkins pipeline. 
+
+In future, I would like to be able to fix the testing issues and then proceed to complete the brief inn full. 
+
+## Part 8: Deliverables
+
+Link to the Vimeo video - https://vimeo.com/687046440/b1a9fca6ae
+
+## Part 9: Author & Acknowledgements
+
+Author - Gareth Dooling
+Acknowledgements - htr-volker, The Earl of Grey & Cleon909 for design & layout of readme documents
