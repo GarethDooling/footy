@@ -21,6 +21,11 @@ pipeline {
                 }
             }
         }
+        stage('Test') {
+            steps {
+                sh "bash jenkins/test.sh"
+            }
+        }
         stage('Run') {
             steps {
                 script{
@@ -33,6 +38,4 @@ pipeline {
     }
 }
 
-        // stage('Test') {
-        //     steps {
-        //         sh "bash jenkins/test.sh"
+ 
