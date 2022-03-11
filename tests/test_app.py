@@ -13,9 +13,6 @@ class TestBase(TestCase):
         return app
 
     def setUp(self):
-        
-        db.session.commit()
-        db.drop_all()
         db.create_all()
 
         team1 = Teams(name="new team", description= "this new team")
