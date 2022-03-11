@@ -89,4 +89,5 @@ Link to the Vimeo video - https://vimeo.com/687046440/b1a9fca6ae
 ## Part 9: Author & Acknowledgements
 
 Author - Gareth Dooling
+
 Acknowledgements - htr-volker, The Earl of Grey & Cleon909 for design & layout of readme documents
