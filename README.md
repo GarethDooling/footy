@@ -44,7 +44,7 @@ Although by omitting the test stage I was able to cause the other three stages t
 
 ## Part 3: Project Tracking
 
-Jira was used to keep track of the project and the link is: https://garethdooling.atlassian.net/jira/software/projects/FF2/boards/2
+Jira was used to keep track of the project.
 
 ![image](https://user-images.githubusercontent.com/97617047/157858494-cb83cf1c-a8d0-4832-b609-50e397ab1b2e.png)
 
