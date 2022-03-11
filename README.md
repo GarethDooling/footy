@@ -90,7 +90,7 @@ Delete team
 
 Obviously I was not able to fulfil the brief however at least I was able to demonstrate basic CRUD functionality and make use of the Jenkins pipeline. 
 
-In future, I would like to be able to fix the testing issues and then proceed to complete the brief inn full. 
+In future, I would like to be able to fix the testing issues and then proceed to complete the brief in full. 
 
 ## Part 8: Deliverables
 
