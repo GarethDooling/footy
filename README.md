@@ -1,4 +1,4 @@
-# Fantasy Footy by Gareth Dooling
+# Fantasy Footy - QA DevOps Boot Camp Final Project 
 
 # Brief
 
@@ -6,26 +6,30 @@
 - To utilise containers to host and deploy the application.
 - To create a continuous integration (CI)/continuous deployment (CD) pipeline that will automatically test, build and deploy the application.
 
-The final deliverable for the project is as follows:
+The final deliverables for the project are:
 
 1. A GitHub repository containing all of the code written for this project, including the software source code, Jenkins configuration, Docker configuration and any related scripts.
 2. The GitHub repository should also contain the write-up for the project in the form of a README.md file.
 3. Also required is video evidence of the application and CI/CD pipeline working.
 
-## Part 1: Project Summary
+## Part 1: Project Design
 
-I proposed to create a simple fantasy football application relating to two tables; 'Teams' and 'Players'. The app should demonstrate CRUD functionality so a user will be able to create, read, update and delete teams and players. 
+According to the MoSCoW principles, I proposed to create a simple fantasy football application relating to two tables; 'Teams' and 'Players'. The app MUST demonstrate CRUD functionality so a user is be able to create, read, update and delete teams and players. 
 
 Unfortunately, I was not able to add the second 'Players' table so the app only demonstrates CRUD for the 'Teams' table. 
 
-## Part 2: Planning, Design & Project Tracking
+As a result, I was not able to add any further SHOULD/COULD/WOULD elements to the project. 
+
+## Part 2: Architecture
+
+### 2.1 Entity Diagrams
+
+The initial plan was for a one to many relationship between the databases however, unfortunately, I was not able to link the two databases together. 
+
+![image](https://user-images.githubusercontent.com/97617047/153581704-25a4ffb8-81b2-491a-acf4-ed42351c7833.png)
+
+### 2.2 CI/Pipeline
 
 ### 2.1 Jira
 
 ![image](https://user-images.githubusercontent.com/97617047/153412116-38921f79-558d-4b25-a836-182366f061f2.png)
-
-### 2.2 Entity Diagrams
-
-![image](https://user-images.githubusercontent.com/97617047/153581704-25a4ffb8-81b2-491a-acf4-ed42351c7833.png)
-
-
