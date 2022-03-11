@@ -1,6 +1,6 @@
 # Fantasy Footy by Gareth Dooling
 
-# Objective
+# Brief
 
 - To create a web application that integrates with a database and demonstrates CRUD functionality.
 - To utilise containers to host and deploy the application.
@@ -19,9 +19,11 @@ This will require use of the following technologies/concepts:
 - Cloud Fundamentals
 - Containerisation
 
-## Part 1: Project Initiation
+## Part 1: Project Summary
 
-I propose to create a simple fantasy football application relating to two tables; 'Team' and 'Players'. The app will demonstrate CRUD functionality so a user will be able to create, read, update and delete teams and players. 
+I proposed to create a simple fantasy football application relating to two tables; 'Teams' and 'Players'. The app should demonstrate CRUD functionality so a user will be able to create, read, update and delete teams and players. 
+
+Unfortunately, I was not able to add the second 'Players' table so the app only demonstrates CRUD for the 'Teams' table. 
 
 ## Part 2: Planning, Design & Project Tracking
 
