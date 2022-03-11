@@ -1,6 +1,6 @@
 # QA DevOps Boot Camp Final Project 
 
-# Brief
+## Brief
 
 - To create a web application that integrates with a database and demonstrates CRUD functionality.
 - To utilise containers to host and deploy the application.
